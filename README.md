@@ -9,6 +9,9 @@ The project is presented in the following link https://aroagm.github.io/
 ## 2. Input Data
 The data
 http://eps.upo.es/martinez/papers/ICREPQ07_martinez-alvarez.pdf
+<br>
+also check the https://ec.europa.eu/eurostat/statistics-explained/index.php?title=File:Electricity_prices,_First_semester_of_2016-2018_(EUR_per_kWh).png
+Based on the spanish market a correction factor will be used. Nowadays the differences between the market price and the consumer price can be seen in the system operator website:
 ## 3. Methodology
 
 Select year 2016 which is a complete year of data. Also only the 
