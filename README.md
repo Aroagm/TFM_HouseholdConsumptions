@@ -1,5 +1,5 @@
 # TFM_HouseholdConsumptions
-A brief overview of the project can be found <a href="https://aroagm.github.io/" target="_blank">here</a> but this document contains more detailed information on the data usage, methodology and results.
+A brief overview of the project can be found [here](https://aroagm.github.io/) but this document contains more detailed information on the data usage, methodology and results.
 
 [1. Introduction](#1._Introduction) <br>
 [2. Input Data](#2._Input_Data) <br>
