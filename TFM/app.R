@@ -149,8 +149,8 @@ server <- function(input, output) {
                                 value_type <- df_recomm[[col_besth]][df_recomm$Hour==input$hour_num]
                                 value_savings <- df_recomm[[col_savings]][df_recomm$Hour==input$hour_num]
                                 value_text <- if (value_type == 0) {paste("There is no recommendation for that hour since the use in the previous/next hour does not imply savings")} else 
-                                  if (value_type == 1) {paste("If the use of the", name_app$data2, "is changed to the previous hour, the savings would be", value_savings ,"for the whole year")} else 
-                                    paste("If the use of the", name_app$data2, "is changed to the next hour, the savings would be", as.integer(value_savings) ,"for the whole year")
+                                  if (value_type == 1) {paste("If the use of the", name_app$data2, "is changed to the previous hour, the savings would be", as.integer(value_savings)/1000 ,"€/kW for the whole year")} else 
+                                    paste("If the use of the", name_app$data2, "is changed to the next hour, the savings would be", as.integer(value_savings)/1000 ,"€/kW for the whole year")
                                 value_text
   })
 }

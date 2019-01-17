@@ -5,8 +5,8 @@ account: aroagm
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 645202
-bundleId: 1820920
+bundleId: 1821060
 url: https://aroagm.shinyapps.io/Household_consum/
-when: 1547760342.9412
+when: 1547765074.56353
 asMultiple: FALSE
 asStatic: FALSE
