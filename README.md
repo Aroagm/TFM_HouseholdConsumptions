@@ -10,7 +10,7 @@ A brief overview of the project can be found [here](https://aroagm.github.io/) b
 The purpose of this project is to apply all the techniques and skills acquired during the Data Science Master from Kschool.  
 The chosen topic to work on is energy, in particular I decided to use household consumption data. With this data the goal is to develop a tool that helps the energy audit of some of the electrical household appliances.
 
-An analyses is carried out with hourly energy prices to obtained 
+An analyses is carried out with hourly energy prices to obtained clusters to categorize the hours with its corresponding prices. With that analysis the household data is manipulated to generate a dataframe 
 
 The output is a recommendation of slight changes in periods to use certain electrical household appliances.
 
@@ -24,19 +24,31 @@ The household consumptions dataset had been obtained from https://data.open-powe
 
 The details for all the data package can be found in the link at the begginnig of the paragraph but same relevant characteristics are going to be explained. First the selected data is the hourly data, it contains all the information for the houses in columns. The columns have a naming pattern as follows: DE_KN_household_consumptionconcept, for example for the residential house 3 the consumption of the refrigerator would be in the column DE_KN_residential3_refrigerator. 
 
-This household data is aggregated and the unit is kWh
+This household data consumptions are aggregated, unit kWh. The time period under study is year 2016 because it is the only whole year of data. 
 
 #### Prices
 
-Since the data is from german households the energy prices have to be obtain from the german system operator: entso https://transparency.entsoe.eu/. The file was downloaded and include in the repository,  
+Since the data is from german households the energy prices have to be obtain from the german system operator: entso https://transparency.entsoe.eu/. The file was downloaded for the year 2016 and include in the repository, Day-ahead Prices_201601010000-201701010000.csv. 
 
+There are some negatives values for prices due to high renewables generation, to learn more go to this [link](https://www.cleanenergywire.org/factsheets/why-power-prices-turn-negative).
+
+Another consideration is that when the prices are used to 
+
+
+(https://ec.europa.eu/eurostat/statistics-explained/index.php?title=File:Electricity_prices,_First_semester_of_2016-2018_(EUR_per_kWh).png)
 
 http://eps.upo.es/martinez/papers/ICREPQ07_martinez-alvarez.pdf
 <br>
 also check the https://ec.europa.eu/eurostat/statistics-explained/index.php?title=File:Electricity_prices,_First_semester_of_2016-2018_(EUR_per_kWh).png
 Based on the spanish market a correction factor will be used. Nowadays the differences between the market price and the consumer price can be seen in the system operator website:
 ## 3. Methodology
-This is the final project for the Kschool Data Science Master so to I decided to work with different languages to practise as much as possible. This is the main reason for 
+This is the final project for the Kschool Data Science Master so to I decided to work with different coding languages to practise as much as possible. The tools I have used are:
+
+1. Jupyter notebooks (launch Jupyter with Anaconda)
+2. RStudio to build the Shiny app.
+3. Github, github pages and shinyapps. io to publish the code and developments
+4. Pingendo to build the web visualisation
+5. Tableau is secondary since nothing is included in this project but it was very useful while inspecting and cleaning the data, as a complement to jupyter to visualize in an simple way 
 
 For price the number is double in household_data
 
