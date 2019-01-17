@@ -19,7 +19,9 @@ Based on the spanish market a correction factor will be used. Nowadays the diffe
 Select year 2016 which is a complete year of data. Also only the 
 ## 4. Results and conclusions
 The results of the project are visualised in the [shiny app](https://aroagm.shinyapps.io/Household_consum/). The usage is very intuitive:
-1.Select a house and one of the electrical appliances to visualise the consumption during the year
-2. Select an hour to give recommendations about the usage and the estimation of savings.
+
+ 1.Select a house and one of the electrical appliances to visualise the consumption during the year
+
+ 2. Select an hour to give recommendations about the usage and the estimation of savings.
 
 One consideration is that for some houses the data results from the analyses are not very consistent since the consumption for the electrical appliances selected along the year is abnormally low.
