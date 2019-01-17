@@ -13,7 +13,7 @@ The chosen topic to work on is energy, in particular I decided to use household 
 An analyses is carried out with hourly energy prices to obtained clusters to categorize the hours with its corresponding prices. With that analysis the household data is manipulated to generate a dataframe with savings if the hour of use of the electrical appliance is change to the previous or next hour. In summary the output is a recommendation of slight changes in periods to use certain electrical household appliances.
 
 #### Files and ordered of usage
-The repository contains all the files to performace the analysis, first the Prices
+The repository contains all the files to performace the analysis, first the Prices_data has to be execute, then the Household_data and finally the Code for the Shiny app is in the TFM folder.
 
 
 ## 2. Input Data
@@ -34,15 +34,10 @@ Since the data is from german households the energy prices have to be obtain fro
 
 There are some negatives values for prices due to high renewables generation, to learn more go to this [link](https://www.cleanenergywire.org/factsheets/why-power-prices-turn-negative).
 
-Another consideration is that when the prices are used to 
-For price the number is double in household_data
+Another consideration is that when the prices are used to calculate savings they are multiply by a factor of 2 since the taxes are not included in the hourly energy data market. This factor has been stablish based on the spanish market, nowadays the differences between the market price and the consumer price can be seen in the system operator website ()
 
-(https://ec.europa.eu/eurostat/statistics-explained/index.php?title=File:Electricity_prices,_First_semester_of_2016-2018_(EUR_per_kWh).png)
+The prices are group in clusters using kMeans, it was inspired by this article http://eps.upo.es/martinez/papers/ICREPQ07_martinez-alvarez.pdf
 
-http://eps.upo.es/martinez/papers/ICREPQ07_martinez-alvarez.pdf
-<br>
-also check the https://ec.europa.eu/eurostat/statistics-explained/index.php?title=File:Electricity_prices,_First_semester_of_2016-2018_(EUR_per_kWh).png
-Based on the spanish market a correction factor will be used. Nowadays the differences between the market price and the consumer price can be seen in the system operator website:
 ## 3. Methodology
 This is the final project for the Kschool Data Science Master so to I decided to work with different coding languages to practise as much as possible. The tools I have used are:
 
@@ -52,7 +47,6 @@ This is the final project for the Kschool Data Science Master so to I decided to
 4. Pingendo to build the web visualisation
 5. Tableau is secondary since nothing is included in this project but it was very useful while inspecting and cleaning the data, as a complement to jupyter to visualize in an simple way 
 
-For price the number is double in household_data
 
 
 ## 4. Results and conclusions
