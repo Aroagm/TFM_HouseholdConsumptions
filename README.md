@@ -7,7 +7,13 @@ A brief overview of the project can be found [here](https://aroagm.github.io/) b
 [4. Results and conclusions](#4._Results_and_conclusions)
 
 ## 1. Introduction
-The project is presented in the following link https://aroagm.github.io/
+The purpose of this project is to apply all the techniques and skills acquired during the Data Science Master from Kschool.  
+The chosen topic to work on is energy, in particular I decided to use household consumption data. With this data the goal is to develop a tool that helps the energy audit of some of the electrical household appliances.
+
+An analyses is carried out with hourly energy prices to obtained 
+
+The output is a recommendation of slight changes in periods to use certain electrical household appliances.
+
 ## 2. Input Data
 The data
 http://eps.upo.es/martinez/papers/ICREPQ07_martinez-alvarez.pdf
