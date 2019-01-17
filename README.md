@@ -15,6 +15,9 @@ http://eps.upo.es/martinez/papers/ICREPQ07_martinez-alvarez.pdf
 also check the https://ec.europa.eu/eurostat/statistics-explained/index.php?title=File:Electricity_prices,_First_semester_of_2016-2018_(EUR_per_kWh).png
 Based on the spanish market a correction factor will be used. Nowadays the differences between the market price and the consumer price can be seen in the system operator website:
 ## 3. Methodology
+This is the final project for the Kschool Data Science Master so to I decided to work with different languages to practise as much as possible. This is the main reason for 
+
+For price the number is double in household_data
 
 Select year 2016 which is a complete year of data. Also only the 
 ## 4. Results and conclusions
