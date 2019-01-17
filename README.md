@@ -28,7 +28,7 @@ This household data is aggregated and the unit is kWh
 
 #### Prices
 
-
+Since the data is from german households the energy prices have to be obtain from the german system operator: entso https://transparency.entsoe.eu/. The file was downloaded and include in the repository,  
 
 
 http://eps.upo.es/martinez/papers/ICREPQ07_martinez-alvarez.pdf
