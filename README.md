@@ -12,7 +12,7 @@ The chosen topic to work on is energy, in particular I decided to use household 
 
 An analyses is carried out with hourly energy prices to obtained clusters to categorize the hours with its corresponding prices. With that analysis the household data is manipulated to generate a dataframe with savings if the hour of use of the electrical appliance is change to the previous or next hour. In summary the output is a recommendation of slight changes in periods to use certain electrical household appliances.
 
-#### Files and ordered of usage
+#### Files and order of usage
 The repository contains all the files to performace the analysis, first the Prices_data has to be execute, then the Household_data and finally the Code for the Shiny app is in the TFM folder.
 
 
