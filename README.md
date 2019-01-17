@@ -34,7 +34,7 @@ Since the data is from german households the energy prices have to be obtain fro
 
 There are some negatives values for prices due to high renewables generation, to learn more go to this [link](https://www.cleanenergywire.org/factsheets/why-power-prices-turn-negative).
 
-Another consideration is that when the prices are used to calculate savings they are multiply by a factor of 2 since the taxes are not included in the hourly energy data market. This factor has been stablish based on the spanish market, nowadays the differences between the market price and the consumer price can be seen in the system operator website ()
+Another consideration is that when the prices are used to calculate savings they are multiply by a factor of 2 since the taxes are not included in the hourly energy data market. This factor has been stablish based on the spanish market, nowadays the differences between the market price and the consumer price can be seen in the system operator website (https://www.esios.ree.es/es) (PvPC vs Mercado Spor España).
 
 The prices are group in clusters using kMeans, it was inspired by this article http://eps.upo.es/martinez/papers/ICREPQ07_martinez-alvarez.pdf
 
@@ -52,8 +52,12 @@ This is the final project for the Kschool Data Science Master so to I decided to
 ## 4. Results and conclusions
 The results of the project are visualised in the [shiny app](https://aroagm.shinyapps.io/Household_consum/). The usage is very intuitive:
 
- 1. Select a house and one of the electrical appliances to visualise the consumption during the year
+ 1. Select a house and one of the electrical appliances to visualise the consumption during the year 
+ 
+ 2. Select the type of day to see the use pattern
 
- 2. Select an hour to give recommendations about the usage and the estimation of savings.
+ 3. Select an hour to give recommendations about the usage and the estimation of savings.
 
 One consideration is that for some houses the data results from the analyses are not very consistent since the consumption for the electrical appliances selected along the year is abnormally low.
+
+For the future more appliances could be added and also the analysis of prices and patterns could be improved. It will be very useful if the users couls charge their data to obtain this visualization. 
