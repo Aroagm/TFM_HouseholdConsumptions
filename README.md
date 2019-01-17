@@ -10,9 +10,11 @@ A brief overview of the project can be found [here](https://aroagm.github.io/) b
 The purpose of this project is to apply all the techniques and skills acquired during the Data Science Master from Kschool.  
 The chosen topic to work on is energy, in particular I decided to use household consumption data. With this data the goal is to develop a tool that helps the energy audit of some of the electrical household appliances.
 
-An analyses is carried out with hourly energy prices to obtained clusters to categorize the hours with its corresponding prices. With that analysis the household data is manipulated to generate a dataframe 
+An analyses is carried out with hourly energy prices to obtained clusters to categorize the hours with its corresponding prices. With that analysis the household data is manipulated to generate a dataframe with savings if the hour of use of the electrical appliance is change to the previous or next hour. In summary the output is a recommendation of slight changes in periods to use certain electrical household appliances.
 
-The output is a recommendation of slight changes in periods to use certain electrical household appliances.
+#### Files and ordered of usage
+The repository contains all the files to performace the analysis, first the Prices
+
 
 ## 2. Input Data
 
@@ -33,7 +35,7 @@ Since the data is from german households the energy prices have to be obtain fro
 There are some negatives values for prices due to high renewables generation, to learn more go to this [link](https://www.cleanenergywire.org/factsheets/why-power-prices-turn-negative).
 
 Another consideration is that when the prices are used to 
-
+For price the number is double in household_data
 
 (https://ec.europa.eu/eurostat/statistics-explained/index.php?title=File:Electricity_prices,_First_semester_of_2016-2018_(EUR_per_kWh).png)
 
@@ -52,7 +54,7 @@ This is the final project for the Kschool Data Science Master so to I decided to
 
 For price the number is double in household_data
 
-Select year 2016 which is a complete year of data. Also only the 
+
 ## 4. Results and conclusions
 The results of the project are visualised in the [shiny app](https://aroagm.shinyapps.io/Household_consum/). The usage is very intuitive:
 
