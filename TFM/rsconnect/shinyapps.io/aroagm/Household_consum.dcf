@@ -1,0 +1,12 @@
+name: Household_consum
+title: Household_consum
+username:
+account: aroagm
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 645202
+bundleId: 1816453
+url: https://aroagm.shinyapps.io/Household_consum/
+when: 1547595120.81904
+asMultiple: FALSE
+asStatic: FALSE
