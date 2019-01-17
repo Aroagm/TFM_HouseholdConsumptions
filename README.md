@@ -15,11 +15,18 @@ An analyses is carried out with hourly energy prices to obtained
 The output is a recommendation of slight changes in periods to use certain electrical household appliances.
 
 ## 2. Input Data
+
 There are two datasets used for the project: household consumptions and  prices. 
 
-The household consumptions dataset had been obtained from https://data.open-power-system-data.org/household_data/. The data package is part of a european project related to microgrids(CoSSMic) and contains measured time series data for 11 households in southern Germany relevant for household- or low-voltage-level power system modeling. The details for all the data package can be found in the link at the begginnig of the paragraph but same relevant characteristics are going to be explained. First the selected data is the hourly data, it contains all the information for the houses in columns. The columns have a naming pattern as follows: DE_KN_household_consumptionconcept, for example for the residential house 3 the consumption of the refrigerator would be in the column DE_KN_residential3_refrigerator.
+#### Household consumptions
 
+The household consumptions dataset had been obtained from https://data.open-power-system-data.org/household_data/. The data package is part of a european project related to microgrids(CoSSMic) and contains measured time series data for 11 households in southern Germany relevant for household- or low-voltage-level power system modeling. 
 
+The details for all the data package can be found in the link at the begginnig of the paragraph but same relevant characteristics are going to be explained. First the selected data is the hourly data, it contains all the information for the houses in columns. The columns have a naming pattern as follows: DE_KN_household_consumptionconcept, for example for the residential house 3 the consumption of the refrigerator would be in the column DE_KN_residential3_refrigerator. 
+
+This household data is aggregated and the unit is kWh
+
+#### Prices
 
 
 
